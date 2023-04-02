@@ -1,0 +1,10 @@
+import numpy as np
+x1 = np.array(['Python', 'PHP'])
+x2 = np.array([' Java', ' C++'])
+print("Array1:")
+print(x1)
+print("Array2:")
+print(x2)
+new_array = np.char.add(x1, x2)
+print("new array:")
+print(new_array)
